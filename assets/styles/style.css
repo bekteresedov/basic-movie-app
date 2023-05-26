@@ -1,0 +1,58 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&display=swap");
+/* header */
+header {
+  display: flex;
+  justify-content: space-around;
+  background-color: rgb(206, 20, 110);
+  align-items: center;
+  padding: 20px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+body {
+  background-color: rgb(24, 173, 196);
+}
+header .logo h2 {
+  color: white;
+  font-family: "Open Sans", sans-serif;
+  font-weight: bold;
+  font-size: 20px;
+  background-color: blue;
+  padding: 8px;
+  border-radius: 5px;
+  box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+}
+
+header nav ul {
+  display: flex;
+  gap: 15px;
+}
+
+header nav ul li a {
+  text-decoration: none;
+  color: white;
+  font-family: "Open Sans", sans-serif;
+  font-size: 15px;
+}
+/* header */
+
+section {
+  margin-top: 20px;
+}
+section h2 {
+  text-align: center;
+  color: rgb(206, 20, 110);
+  font-family: "Open Sans", sans-serif;
+  font-weight: bold;
+  text-shadow: -5px 6px 8px rgba(128, 0, 0, 0.6);
+  font-size: 30px;
+}
+section .movie-items {
+  width: 80%;
+  margin: 0 auto;
+}
+section .movie-items .movie-item {
+  width: 180px;
+  height: 230px;
+  border: 2px solid black;
+}
